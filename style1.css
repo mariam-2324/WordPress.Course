@@ -1,0 +1,32 @@
+/* BORDER.RADIOUS.BOX-SHADOW */
+.first {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px 20px 10px 40px;
+    box-shadow: 10px 10px 20px rgba(143, 116, 84, 0.728);
+}
+
+/* TEXT-OVERFLOW */
+.box {
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* VISIBILITY-CSS */
+ul li {
+    /* visibility: hidden; */
+    display: none;
+}
+
+/* TEXT.DECORATION */
+p {
+    text-decoration: overline;
+}
+.second {
+    text-align: left;
+    line-height: 1cm;
+    font-family:Arial, Helvetica, sans-serif;
+}
