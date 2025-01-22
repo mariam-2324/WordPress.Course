@@ -1,0 +1,61 @@
+* {
+    color: brown;
+    
+}
+    /* ELEMENT SELECTORS */
+h2 {
+    color: blueviolet;
+}
+p,
+a {
+    color: blue; font-style: italic;
+}
+li {
+    font-style:oblique;
+
+}
+/* CLASS-SELECTORS */
+.special {
+    color: seagreen;
+    font-weight:bolder;
+}
+/* DESCEDENT-COMBINATORS */
+span{
+    color: salmon;
+    font-style: italic;
+}
+/* ADJACENT-COMBINATORS */
+h4, h5 {
+    background-color: aqua;
+    
+}
+#ideal {
+    font-style: oblique;
+} 
+ /* parent/child */
+ ol li {
+    color: beige;
+    background-color: blueviolet;
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+
+ }
+ ol {
+    background-color:brown;
+    display: inline;
+    padding: 20px;
+ }
+
+/* BORDER-STYLING */ 
+h3 {
+    border: 2px solid black;
+
+}
+h2 {
+    background-color: brown;
+    margin: 50px;
+    padding: 10px;
+
+}
+
